@@ -1,16 +1,49 @@
-/* home */
-@use "../abstracts/variables" as var;
-@use "../base/typography" as type;
-
 body {
-  font-family: type.$font;
-  background-color: var.$bg-very-light;
-  width: min(100% - 2rem, 60ch);
-  margin-inline: auto;
-  margin-block: 4rem;
+  font-family: 'Cardo', serif;
+  line-height: 1.6;
+  background-color: #f7f3e9;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 h1 {
-  color: var.$primary-color;
-  text-align: center;
+  font-size: clamp(2rem, 5vw, 3rem);
+  color: #1b397a;
 }
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 4px solid #020202;
+}
+
+figure {
+  margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1rem;
+  color: #000000;
+}
+
