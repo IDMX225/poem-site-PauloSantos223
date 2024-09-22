@@ -29,6 +29,8 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 ## Resources
 
 <small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small>
+Netlify Website: https://miragepoem.netlify.app/
+This is a poem page that features poem called Mirage written by Ella Wheeler Wilcox
 
 ## Other Sources
 # https://validator.w3.org/
